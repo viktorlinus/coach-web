@@ -2,6 +2,7 @@ import React from 'react';
 import { CheckCircle2, XCircle, ArrowRight } from 'lucide-react';
 import { testimonials } from './data/testimonials';
 import { programFeatures, whatDoesntWork, whyMethodWorks, howItWorks } from './data/content';
+import jasonImage from './assets/jason-640.jpg';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
       <section className="bg-white min-h-[80vh] py-24 px-4 sm:px-6 lg:px-8 flex items-center">
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
-            <img src="jason-640.jpg" alt="Jason Andrews" className="rounded-2xl shadow-lg w-64 md:w-80" />
+            <img src={jasonImage} alt="Jason Andrews" className="rounded-2xl shadow-lg w-64 md:w-80" />
             <div>
               <h2 className="text-3xl font-bold mb-6">You've Tried Everything—But This Actually Works.</h2>
               <p className="text-gray-600 mb-4 text-lg">With years of experience helping clients overcome anxiety, relationship issues, and career challenges, I've developed a unique approach that creates lasting change—fast.</p>
